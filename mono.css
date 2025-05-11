@@ -1,0 +1,103 @@
+/* الخط العام */
+body {
+    font-family: 'Arial', sans-serif;
+    direction: rtl;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* الهيدر */
+  header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* كروت المنتجات */
+  .products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    padding: 40px;
+  }
+  
+  .product-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .product-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .product-card img {
+    max-width: 100%;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .product-card h3 {
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .product-card p {
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  .product-card span {
+    color: #28a745;
+    font-weight: bold;
+  }
+  
+  .product-card button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 80%;
+    border-radius: 5px;
+    margin: 10px 0 20px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .product-card button:hover {
+    background-color: #218838;
+  }
+  
+  /* الفوتر */
+  footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    color: #777;
+  }
+  
